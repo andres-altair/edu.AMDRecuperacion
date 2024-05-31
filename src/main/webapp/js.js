@@ -48,9 +48,9 @@ function aniadirLetra(){
 	
 	if(intento==5){
 		alert("has perdido");
-	}else if(intento<3){
+	}else if(intento<3 && palabraArray==arrayAsterisco){
 		alert("bien")
-	}else if(intento<5){
+	}else if(intento<5 && palabraArray==arrayAsterisco){
 		alert("por poco")
 	}else if(intento>5){
 		alert("has perdido")
