@@ -5,6 +5,7 @@ let palabraArray=[];
 let arrayAsterisco=[];
 let intentos= document.getElementById("intentos");
 let intento=0;
+let historial= document.getElementById("historial");
 let tiempoPasado;
 
 
